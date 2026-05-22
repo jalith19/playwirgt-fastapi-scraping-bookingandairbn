@@ -1,0 +1,596 @@
+[
+    {
+        "label": "AsyncIOMotorClient",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "async_playwright",
+        "importPath": "playwright.async_api",
+        "description": "playwright.async_api",
+        "isExtraImport": true,
+        "detail": "playwright.async_api",
+        "documentation": {}
+    },
+    {
+        "label": "async_playwright",
+        "importPath": "playwright.async_api",
+        "description": "playwright.async_api",
+        "isExtraImport": true,
+        "detail": "playwright.async_api",
+        "documentation": {}
+    },
+    {
+        "label": "async_playwright",
+        "importPath": "playwright.async_api",
+        "description": "playwright.async_api",
+        "isExtraImport": true,
+        "detail": "playwright.async_api",
+        "documentation": {}
+    },
+    {
+        "label": "async_playwright",
+        "importPath": "playwright.async_api",
+        "description": "playwright.async_api",
+        "isExtraImport": true,
+        "detail": "playwright.async_api",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "BackgroundTasks",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "mongodb",
+        "importPath": "database.mongodb",
+        "description": "database.mongodb",
+        "isExtraImport": true,
+        "detail": "database.mongodb",
+        "documentation": {}
+    },
+    {
+        "label": "COLLECTION_BOOKING_ALOJAMIENTOS",
+        "importPath": "database.mongodb",
+        "description": "database.mongodb",
+        "isExtraImport": true,
+        "detail": "database.mongodb",
+        "documentation": {}
+    },
+    {
+        "label": "COLLECTION_BOOKING_ACTIVIDADES",
+        "importPath": "database.mongodb",
+        "description": "database.mongodb",
+        "isExtraImport": true,
+        "detail": "database.mongodb",
+        "documentation": {}
+    },
+    {
+        "label": "COLLECTION_AIRBNB_ALOJAMIENTOS",
+        "importPath": "database.mongodb",
+        "description": "database.mongodb",
+        "isExtraImport": true,
+        "detail": "database.mongodb",
+        "documentation": {}
+    },
+    {
+        "label": "COLLECTION_AIRBNB_ACTIVIDADES",
+        "importPath": "database.mongodb",
+        "description": "database.mongodb",
+        "isExtraImport": true,
+        "detail": "database.mongodb",
+        "documentation": {}
+    },
+    {
+        "label": "mongodb",
+        "importPath": "database.mongodb",
+        "description": "database.mongodb",
+        "isExtraImport": true,
+        "detail": "database.mongodb",
+        "documentation": {}
+    },
+    {
+        "label": "COLLECTION_BOOKING_ALOJAMIENTOS",
+        "importPath": "database.mongodb",
+        "description": "database.mongodb",
+        "isExtraImport": true,
+        "detail": "database.mongodb",
+        "documentation": {}
+    },
+    {
+        "label": "COLLECTION_BOOKING_ACTIVIDADES",
+        "importPath": "database.mongodb",
+        "description": "database.mongodb",
+        "isExtraImport": true,
+        "detail": "database.mongodb",
+        "documentation": {}
+    },
+    {
+        "label": "COLLECTION_AIRBNB_ALOJAMIENTOS",
+        "importPath": "database.mongodb",
+        "description": "database.mongodb",
+        "isExtraImport": true,
+        "detail": "database.mongodb",
+        "documentation": {}
+    },
+    {
+        "label": "COLLECTION_AIRBNB_ACTIVIDADES",
+        "importPath": "database.mongodb",
+        "description": "database.mongodb",
+        "isExtraImport": true,
+        "detail": "database.mongodb",
+        "documentation": {}
+    },
+    {
+        "label": "scrape_booking_colombia",
+        "importPath": "scrapers",
+        "description": "scrapers",
+        "isExtraImport": true,
+        "detail": "scrapers",
+        "documentation": {}
+    },
+    {
+        "label": "enrich_booking_properties",
+        "importPath": "scrapers",
+        "description": "scrapers",
+        "isExtraImport": true,
+        "detail": "scrapers",
+        "documentation": {}
+    },
+    {
+        "label": "scrape_booking_attractions",
+        "importPath": "scrapers",
+        "description": "scrapers",
+        "isExtraImport": true,
+        "detail": "scrapers",
+        "documentation": {}
+    },
+    {
+        "label": "enrich_booking_activities",
+        "importPath": "scrapers",
+        "description": "scrapers",
+        "isExtraImport": true,
+        "detail": "scrapers",
+        "documentation": {}
+    },
+    {
+        "label": "scrape_airbnb_colombia",
+        "importPath": "scrapers",
+        "description": "scrapers",
+        "isExtraImport": true,
+        "detail": "scrapers",
+        "documentation": {}
+    },
+    {
+        "label": "enrich_airbnb_properties",
+        "importPath": "scrapers",
+        "description": "scrapers",
+        "isExtraImport": true,
+        "detail": "scrapers",
+        "documentation": {}
+    },
+    {
+        "label": "scrape_airbnb_experiences",
+        "importPath": "scrapers",
+        "description": "scrapers",
+        "isExtraImport": true,
+        "detail": "scrapers",
+        "documentation": {}
+    },
+    {
+        "label": "enrich_airbnb_experiences",
+        "importPath": "scrapers",
+        "description": "scrapers",
+        "isExtraImport": true,
+        "detail": "scrapers",
+        "documentation": {}
+    },
+    {
+        "label": "scrape_booking_colombia",
+        "importPath": "scrapers",
+        "description": "scrapers",
+        "isExtraImport": true,
+        "detail": "scrapers",
+        "documentation": {}
+    },
+    {
+        "label": "enrich_booking_properties",
+        "importPath": "scrapers",
+        "description": "scrapers",
+        "isExtraImport": true,
+        "detail": "scrapers",
+        "documentation": {}
+    },
+    {
+        "label": "scrape_booking_attractions",
+        "importPath": "scrapers",
+        "description": "scrapers",
+        "isExtraImport": true,
+        "detail": "scrapers",
+        "documentation": {}
+    },
+    {
+        "label": "enrich_booking_activities",
+        "importPath": "scrapers",
+        "description": "scrapers",
+        "isExtraImport": true,
+        "detail": "scrapers",
+        "documentation": {}
+    },
+    {
+        "label": "scrape_airbnb_colombia",
+        "importPath": "scrapers",
+        "description": "scrapers",
+        "isExtraImport": true,
+        "detail": "scrapers",
+        "documentation": {}
+    },
+    {
+        "label": "enrich_airbnb_properties",
+        "importPath": "scrapers",
+        "description": "scrapers",
+        "isExtraImport": true,
+        "detail": "scrapers",
+        "documentation": {}
+    },
+    {
+        "label": "scrape_airbnb_experiences",
+        "importPath": "scrapers",
+        "description": "scrapers",
+        "isExtraImport": true,
+        "detail": "scrapers",
+        "documentation": {}
+    },
+    {
+        "label": "enrich_airbnb_experiences",
+        "importPath": "scrapers",
+        "description": "scrapers",
+        "isExtraImport": true,
+        "detail": "scrapers",
+        "documentation": {}
+    },
+    {
+        "label": "start_scheduler",
+        "importPath": "scheduler",
+        "description": "scheduler",
+        "isExtraImport": true,
+        "detail": "scheduler",
+        "documentation": {}
+    },
+    {
+        "label": "run_all_scrapers",
+        "importPath": "scheduler",
+        "description": "scheduler",
+        "isExtraImport": true,
+        "detail": "scheduler",
+        "documentation": {}
+    },
+    {
+        "label": "BackgroundScheduler",
+        "importPath": "apscheduler.schedulers.background",
+        "description": "apscheduler.schedulers.background",
+        "isExtraImport": true,
+        "detail": "apscheduler.schedulers.background",
+        "documentation": {}
+    },
+    {
+        "label": "IntervalTrigger",
+        "importPath": "apscheduler.triggers.interval",
+        "description": "apscheduler.triggers.interval",
+        "isExtraImport": true,
+        "detail": "apscheduler.triggers.interval",
+        "documentation": {}
+    },
+    {
+        "label": "MongoDB",
+        "kind": 6,
+        "importPath": "database.mongodb",
+        "description": "database.mongodb",
+        "peekOfCode": "class MongoDB:\n    def __init__(self):\n        self.client: Optional[AsyncIOMotorClient] = None\n        self.db = None\n    async def connect(self):\n        \"\"\"Conectar a MongoDB Atlas\"\"\"\n        try:\n            self.client = AsyncIOMotorClient(MONGO_URI)\n            self.db = self.client[DB_NAME]\n            # Verificar conexión",
+        "detail": "database.mongodb",
+        "documentation": {}
+    },
+    {
+        "label": "MONGO_URI",
+        "kind": 5,
+        "importPath": "database.mongodb",
+        "description": "database.mongodb",
+        "peekOfCode": "MONGO_URI = \"mongodb+srv://jalithmerinoalmeida_db_user:x0dCd6r0efJLi3Wz@scraping-booking-airbnb.gyq0lvo.mongodb.net/\"\nDB_NAME = \"booking-airbnb\"\n# Colecciones\nCOLLECTION_BOOKING_ALOJAMIENTOS = \"booking-alojamientos\"\nCOLLECTION_BOOKING_ACTIVIDADES = \"booking-actividades\"\nCOLLECTION_AIRBNB_ALOJAMIENTOS = \"airbnb-alojamientos\"\nCOLLECTION_AIRBNB_ACTIVIDADES = \"airbnb-actividades\"\nclass MongoDB:\n    def __init__(self):\n        self.client: Optional[AsyncIOMotorClient] = None",
+        "detail": "database.mongodb",
+        "documentation": {}
+    },
+    {
+        "label": "DB_NAME",
+        "kind": 5,
+        "importPath": "database.mongodb",
+        "description": "database.mongodb",
+        "peekOfCode": "DB_NAME = \"booking-airbnb\"\n# Colecciones\nCOLLECTION_BOOKING_ALOJAMIENTOS = \"booking-alojamientos\"\nCOLLECTION_BOOKING_ACTIVIDADES = \"booking-actividades\"\nCOLLECTION_AIRBNB_ALOJAMIENTOS = \"airbnb-alojamientos\"\nCOLLECTION_AIRBNB_ACTIVIDADES = \"airbnb-actividades\"\nclass MongoDB:\n    def __init__(self):\n        self.client: Optional[AsyncIOMotorClient] = None\n        self.db = None",
+        "detail": "database.mongodb",
+        "documentation": {}
+    },
+    {
+        "label": "COLLECTION_BOOKING_ALOJAMIENTOS",
+        "kind": 5,
+        "importPath": "database.mongodb",
+        "description": "database.mongodb",
+        "peekOfCode": "COLLECTION_BOOKING_ALOJAMIENTOS = \"booking-alojamientos\"\nCOLLECTION_BOOKING_ACTIVIDADES = \"booking-actividades\"\nCOLLECTION_AIRBNB_ALOJAMIENTOS = \"airbnb-alojamientos\"\nCOLLECTION_AIRBNB_ACTIVIDADES = \"airbnb-actividades\"\nclass MongoDB:\n    def __init__(self):\n        self.client: Optional[AsyncIOMotorClient] = None\n        self.db = None\n    async def connect(self):\n        \"\"\"Conectar a MongoDB Atlas\"\"\"",
+        "detail": "database.mongodb",
+        "documentation": {}
+    },
+    {
+        "label": "COLLECTION_BOOKING_ACTIVIDADES",
+        "kind": 5,
+        "importPath": "database.mongodb",
+        "description": "database.mongodb",
+        "peekOfCode": "COLLECTION_BOOKING_ACTIVIDADES = \"booking-actividades\"\nCOLLECTION_AIRBNB_ALOJAMIENTOS = \"airbnb-alojamientos\"\nCOLLECTION_AIRBNB_ACTIVIDADES = \"airbnb-actividades\"\nclass MongoDB:\n    def __init__(self):\n        self.client: Optional[AsyncIOMotorClient] = None\n        self.db = None\n    async def connect(self):\n        \"\"\"Conectar a MongoDB Atlas\"\"\"\n        try:",
+        "detail": "database.mongodb",
+        "documentation": {}
+    },
+    {
+        "label": "COLLECTION_AIRBNB_ALOJAMIENTOS",
+        "kind": 5,
+        "importPath": "database.mongodb",
+        "description": "database.mongodb",
+        "peekOfCode": "COLLECTION_AIRBNB_ALOJAMIENTOS = \"airbnb-alojamientos\"\nCOLLECTION_AIRBNB_ACTIVIDADES = \"airbnb-actividades\"\nclass MongoDB:\n    def __init__(self):\n        self.client: Optional[AsyncIOMotorClient] = None\n        self.db = None\n    async def connect(self):\n        \"\"\"Conectar a MongoDB Atlas\"\"\"\n        try:\n            self.client = AsyncIOMotorClient(MONGO_URI)",
+        "detail": "database.mongodb",
+        "documentation": {}
+    },
+    {
+        "label": "COLLECTION_AIRBNB_ACTIVIDADES",
+        "kind": 5,
+        "importPath": "database.mongodb",
+        "description": "database.mongodb",
+        "peekOfCode": "COLLECTION_AIRBNB_ACTIVIDADES = \"airbnb-actividades\"\nclass MongoDB:\n    def __init__(self):\n        self.client: Optional[AsyncIOMotorClient] = None\n        self.db = None\n    async def connect(self):\n        \"\"\"Conectar a MongoDB Atlas\"\"\"\n        try:\n            self.client = AsyncIOMotorClient(MONGO_URI)\n            self.db = self.client[DB_NAME]",
+        "detail": "database.mongodb",
+        "documentation": {}
+    },
+    {
+        "label": "mongodb",
+        "kind": 5,
+        "importPath": "database.mongodb",
+        "description": "database.mongodb",
+        "peekOfCode": "mongodb = MongoDB()",
+        "detail": "database.mongodb",
+        "documentation": {}
+    },
+    {
+        "label": "enrich_airbnb_experiences",
+        "kind": 2,
+        "importPath": "scrapers.airbnb_actividades",
+        "description": "scrapers.airbnb_actividades",
+        "peekOfCode": "def enrich_airbnb_experiences(experiencias):\n    \"\"\"Enriquecer datos de experiencias Airbnb\"\"\"\n    for i, exp in enumerate(experiencias):\n        exp[\"numero\"] = i + 1\n        exp[\"fuente\"] = \"Airbnb Experiences\"\n        exp[\"pais\"] = \"Colombia\"\n        exp[\"moneda\"] = \"COP\"\n        exp[\"tipo\"] = \"actividad\"\n        exp[\"fecha_scraping\"] = datetime.now().isoformat()\n        if \"precio\" in exp:",
+        "detail": "scrapers.airbnb_actividades",
+        "documentation": {}
+    },
+    {
+        "label": "enrich_airbnb_properties",
+        "kind": 2,
+        "importPath": "scrapers.airbnb_alojamientos",
+        "description": "scrapers.airbnb_alojamientos",
+        "peekOfCode": "def enrich_airbnb_properties(propiedades):\n    \"\"\"Enriquecer datos de propiedades Airbnb\"\"\"\n    for i, prop in enumerate(propiedades):\n        prop[\"numero\"] = i + 1\n        prop[\"fuente\"] = \"Airbnb\"\n        prop[\"pais\"] = \"Colombia\"\n        prop[\"moneda\"] = \"COP\"\n        prop[\"tipo\"] = \"alojamiento\"\n        prop[\"fecha_scraping\"] = datetime.now().isoformat()\n        if \"precio\" in prop:",
+        "detail": "scrapers.airbnb_alojamientos",
+        "documentation": {}
+    },
+    {
+        "label": "enrich_booking_activities",
+        "kind": 2,
+        "importPath": "scrapers.booking_actividades",
+        "description": "scrapers.booking_actividades",
+        "peekOfCode": "def enrich_booking_activities(actividades):\n    \"\"\"Enriquecer datos de actividades Booking\"\"\"\n    for i, act in enumerate(actividades):\n        act[\"id\"] = f\"booking_act_co_{i+1:04d}\"\n        act[\"pais\"] = \"Colombia\"\n        act[\"fuente\"] = \"Booking.com Attractions\"\n        act[\"tipo\"] = \"actividad\"\n        act[\"fecha_scraping\"] = datetime.now().isoformat()\n        if \"puntuacion\" in act:\n            try:",
+        "detail": "scrapers.booking_actividades",
+        "documentation": {}
+    },
+    {
+        "label": "enrich_booking_properties",
+        "kind": 2,
+        "importPath": "scrapers.booking_alojamientos",
+        "description": "scrapers.booking_alojamientos",
+        "peekOfCode": "def enrich_booking_properties(propiedades):\n    \"\"\"Enriquecer datos de propiedades Booking\"\"\"\n    for i, prop in enumerate(propiedades):\n        prop[\"id\"] = f\"booking_co_{i+1:04d}\"\n        prop[\"pais\"] = \"Colombia\"\n        prop[\"fuente\"] = \"Booking.com\"\n        prop[\"tipo\"] = \"alojamiento\"\n        prop[\"fecha_scraping\"] = datetime.now().isoformat()\n        if \"puntuacion\" in prop:\n            try:",
+        "detail": "scrapers.booking_alojamientos",
+        "documentation": {}
+    },
+    {
+        "label": "ScrapingRequest",
+        "kind": 6,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "class ScrapingRequest(BaseModel):\n    tipo: str\ndef convert_objectid(data: List[Dict]) -> List[Dict]:\n    \"\"\"Convierte ObjectId a string para serialización JSON\"\"\"\n    for item in data:\n        if \"_id\" in item:\n            item[\"_id\"] = str(item[\"_id\"])\n    return data\n# Eventos de inicio y cierre\n@app.on_event(\"startup\")",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "convert_objectid",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def convert_objectid(data: List[Dict]) -> List[Dict]:\n    \"\"\"Convierte ObjectId a string para serialización JSON\"\"\"\n    for item in data:\n        if \"_id\" in item:\n            item[\"_id\"] = str(item[\"_id\"])\n    return data\n# Eventos de inicio y cierre\n@app.on_event(\"startup\")\nasync def startup_event():\n    \"\"\"Conectar a MongoDB e iniciar scheduler al arrancar la API\"\"\"",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "app = FastAPI(\n    title=\"Scraping API - Booking & Airbnb Colombia\",\n    description=\"API para gestión de datos de alojamientos y actividades de Booking y Airbnb en Colombia\",\n    version=\"1.0.0\",\n    docs_url=\"/docs\",\n    redoc_url=\"/redoc\",\n)\n# Configurar CORS\napp.add_middleware(\n    CORSMiddleware,",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "start_scheduler",
+        "kind": 2,
+        "importPath": "scheduler",
+        "description": "scheduler",
+        "peekOfCode": "def start_scheduler():\n    \"\"\"Iniciar el scheduler para ejecutar scrapers cada 8 horas\"\"\"\n    scheduler = BackgroundScheduler()\n    # Programar cada 8 horas\n    trigger = IntervalTrigger(hours=8)\n    def run_async_job():\n        asyncio.run(run_all_scrapers())\n    scheduler.add_job(run_async_job, trigger)\n    scheduler.start()\n    print(\"Scheduler iniciado - Los scrapers se ejecutarán cada 8 horas\")",
+        "detail": "scheduler",
+        "documentation": {}
+    }
+]
