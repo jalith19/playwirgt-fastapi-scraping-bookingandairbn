@@ -454,7 +454,7 @@
         "kind": 6,
         "importPath": "database.mongodb",
         "description": "database.mongodb",
-        "peekOfCode": "class MongoDB:\n    def __init__(self):\n        self.client: Optional[AsyncIOMotorClient] = None\n        self.db = None\n    async def connect(self):\n        \"\"\"Conectar a MongoDB Atlas\"\"\"\n        try:\n            self.client = AsyncIOMotorClient(MONGO_URI)\n            self.db = self.client[DB_NAME]\n            # Verificar conexión",
+        "peekOfCode": "class MongoDB:\n    def __init__(self):\n        self.client = None\n        self.db = None\n    async def connect(self):\n        try:\n            self.client = AsyncIOMotorClient(\n                MONGO_URI,\n                tlsAllowInvalidCertificates=True,\n                tlsAllowInvalidHostnames=True,",
         "detail": "database.mongodb",
         "documentation": {}
     },
@@ -463,7 +463,7 @@
         "kind": 5,
         "importPath": "database.mongodb",
         "description": "database.mongodb",
-        "peekOfCode": "MONGO_URI = \"mongodb+srv://jalithmerinoalmeida_db_user:x0dCd6r0efJLi3Wz@scraping-booking-airbnb.gyq0lvo.mongodb.net/\"\nDB_NAME = \"booking-airbnb\"\n# Colecciones\nCOLLECTION_BOOKING_ALOJAMIENTOS = \"booking-alojamientos\"\nCOLLECTION_BOOKING_ACTIVIDADES = \"booking-actividades\"\nCOLLECTION_AIRBNB_ALOJAMIENTOS = \"airbnb-alojamientos\"\nCOLLECTION_AIRBNB_ACTIVIDADES = \"airbnb-actividades\"\nclass MongoDB:\n    def __init__(self):\n        self.client: Optional[AsyncIOMotorClient] = None",
+        "peekOfCode": "MONGO_URI = \"mongodb+srv://jalithmerinoalmeida_db_user:x0dCd6r0efJLi3Wz@scraping-booking-airbnb.gyq0lvo.mongodb.net/\"\nDB_NAME = \"booking-airbnb\"\nCOLLECTION_BOOKING_ALOJAMIENTOS = \"booking-alojamientos\"\nCOLLECTION_BOOKING_ACTIVIDADES = \"booking-actividades\"\nCOLLECTION_AIRBNB_ALOJAMIENTOS = \"airbnb-alojamientos\"\nCOLLECTION_AIRBNB_ACTIVIDADES = \"airbnb-actividades\"\nclass MongoDB:\n    def __init__(self):\n        self.client = None\n        self.db = None",
         "detail": "database.mongodb",
         "documentation": {}
     },
@@ -472,7 +472,7 @@
         "kind": 5,
         "importPath": "database.mongodb",
         "description": "database.mongodb",
-        "peekOfCode": "DB_NAME = \"booking-airbnb\"\n# Colecciones\nCOLLECTION_BOOKING_ALOJAMIENTOS = \"booking-alojamientos\"\nCOLLECTION_BOOKING_ACTIVIDADES = \"booking-actividades\"\nCOLLECTION_AIRBNB_ALOJAMIENTOS = \"airbnb-alojamientos\"\nCOLLECTION_AIRBNB_ACTIVIDADES = \"airbnb-actividades\"\nclass MongoDB:\n    def __init__(self):\n        self.client: Optional[AsyncIOMotorClient] = None\n        self.db = None",
+        "peekOfCode": "DB_NAME = \"booking-airbnb\"\nCOLLECTION_BOOKING_ALOJAMIENTOS = \"booking-alojamientos\"\nCOLLECTION_BOOKING_ACTIVIDADES = \"booking-actividades\"\nCOLLECTION_AIRBNB_ALOJAMIENTOS = \"airbnb-alojamientos\"\nCOLLECTION_AIRBNB_ACTIVIDADES = \"airbnb-actividades\"\nclass MongoDB:\n    def __init__(self):\n        self.client = None\n        self.db = None\n    async def connect(self):",
         "detail": "database.mongodb",
         "documentation": {}
     },
@@ -481,7 +481,7 @@
         "kind": 5,
         "importPath": "database.mongodb",
         "description": "database.mongodb",
-        "peekOfCode": "COLLECTION_BOOKING_ALOJAMIENTOS = \"booking-alojamientos\"\nCOLLECTION_BOOKING_ACTIVIDADES = \"booking-actividades\"\nCOLLECTION_AIRBNB_ALOJAMIENTOS = \"airbnb-alojamientos\"\nCOLLECTION_AIRBNB_ACTIVIDADES = \"airbnb-actividades\"\nclass MongoDB:\n    def __init__(self):\n        self.client: Optional[AsyncIOMotorClient] = None\n        self.db = None\n    async def connect(self):\n        \"\"\"Conectar a MongoDB Atlas\"\"\"",
+        "peekOfCode": "COLLECTION_BOOKING_ALOJAMIENTOS = \"booking-alojamientos\"\nCOLLECTION_BOOKING_ACTIVIDADES = \"booking-actividades\"\nCOLLECTION_AIRBNB_ALOJAMIENTOS = \"airbnb-alojamientos\"\nCOLLECTION_AIRBNB_ACTIVIDADES = \"airbnb-actividades\"\nclass MongoDB:\n    def __init__(self):\n        self.client = None\n        self.db = None\n    async def connect(self):\n        try:",
         "detail": "database.mongodb",
         "documentation": {}
     },
@@ -490,7 +490,7 @@
         "kind": 5,
         "importPath": "database.mongodb",
         "description": "database.mongodb",
-        "peekOfCode": "COLLECTION_BOOKING_ACTIVIDADES = \"booking-actividades\"\nCOLLECTION_AIRBNB_ALOJAMIENTOS = \"airbnb-alojamientos\"\nCOLLECTION_AIRBNB_ACTIVIDADES = \"airbnb-actividades\"\nclass MongoDB:\n    def __init__(self):\n        self.client: Optional[AsyncIOMotorClient] = None\n        self.db = None\n    async def connect(self):\n        \"\"\"Conectar a MongoDB Atlas\"\"\"\n        try:",
+        "peekOfCode": "COLLECTION_BOOKING_ACTIVIDADES = \"booking-actividades\"\nCOLLECTION_AIRBNB_ALOJAMIENTOS = \"airbnb-alojamientos\"\nCOLLECTION_AIRBNB_ACTIVIDADES = \"airbnb-actividades\"\nclass MongoDB:\n    def __init__(self):\n        self.client = None\n        self.db = None\n    async def connect(self):\n        try:\n            self.client = AsyncIOMotorClient(",
         "detail": "database.mongodb",
         "documentation": {}
     },
@@ -499,7 +499,7 @@
         "kind": 5,
         "importPath": "database.mongodb",
         "description": "database.mongodb",
-        "peekOfCode": "COLLECTION_AIRBNB_ALOJAMIENTOS = \"airbnb-alojamientos\"\nCOLLECTION_AIRBNB_ACTIVIDADES = \"airbnb-actividades\"\nclass MongoDB:\n    def __init__(self):\n        self.client: Optional[AsyncIOMotorClient] = None\n        self.db = None\n    async def connect(self):\n        \"\"\"Conectar a MongoDB Atlas\"\"\"\n        try:\n            self.client = AsyncIOMotorClient(MONGO_URI)",
+        "peekOfCode": "COLLECTION_AIRBNB_ALOJAMIENTOS = \"airbnb-alojamientos\"\nCOLLECTION_AIRBNB_ACTIVIDADES = \"airbnb-actividades\"\nclass MongoDB:\n    def __init__(self):\n        self.client = None\n        self.db = None\n    async def connect(self):\n        try:\n            self.client = AsyncIOMotorClient(\n                MONGO_URI,",
         "detail": "database.mongodb",
         "documentation": {}
     },
@@ -508,7 +508,7 @@
         "kind": 5,
         "importPath": "database.mongodb",
         "description": "database.mongodb",
-        "peekOfCode": "COLLECTION_AIRBNB_ACTIVIDADES = \"airbnb-actividades\"\nclass MongoDB:\n    def __init__(self):\n        self.client: Optional[AsyncIOMotorClient] = None\n        self.db = None\n    async def connect(self):\n        \"\"\"Conectar a MongoDB Atlas\"\"\"\n        try:\n            self.client = AsyncIOMotorClient(MONGO_URI)\n            self.db = self.client[DB_NAME]",
+        "peekOfCode": "COLLECTION_AIRBNB_ACTIVIDADES = \"airbnb-actividades\"\nclass MongoDB:\n    def __init__(self):\n        self.client = None\n        self.db = None\n    async def connect(self):\n        try:\n            self.client = AsyncIOMotorClient(\n                MONGO_URI,\n                tlsAllowInvalidCertificates=True,",
         "detail": "database.mongodb",
         "documentation": {}
     },
